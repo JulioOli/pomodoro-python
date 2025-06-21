@@ -59,7 +59,7 @@ def pomodoro_timer():
             playsound('ok-desu-ka.mp3')
 
     except KeyboardInterrupt:
-        print("\nTimer Pomodoro interrompido. Bom trabalho!")
+        print("\n\nTimer Pomodoro interrompido. Bom trabalho!".center(terminal_width))
     except Exception as e:
         print(f"\nOcorreu um erro: {e}")
         print("Certifique-se de que o arquivo 'ok-desu-ka.mp3' está na mesma pasta que o script.")
