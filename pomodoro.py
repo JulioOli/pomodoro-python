@@ -49,13 +49,13 @@ def pomodoro_timer():
             # Período de Estudo
             countdown(22, "FOCO")
             print("\n")
-            print("Dá um tempo aí filho, vai fazer malabarismo ou uns burpies sla..")
+            print("Dá um tempo aí filho, vai fazer malabarismo ou uns burpies sla..\n\n".center(terminal_width))
             playsound('ok-desu-ka.mp3')
 
             # Período de Descanso
             countdown(8, "DESCANSO")
             print("\n")
-            print("Cabô os 8 min de tédio, bora voltar a Estudar!!")
+            print("Cabô os 8 min de tédio, bora voltar a Estudar!!\n\n".center(terminal_width))
             playsound('ok-desu-ka.mp3')
 
     except KeyboardInterrupt:
