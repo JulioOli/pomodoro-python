@@ -62,7 +62,7 @@ def pomodoro_timer():
         print("\nTimer Pomodoro interrompido. Bom trabalho!")
     except Exception as e:
         print(f"\nOcorreu um erro: {e}")
-        print("Certifique-se de que o arquivo 'notificacao.mp3' está na mesma pasta que o script.")
+        print("Certifique-se de que o arquivo 'ok-desu-ka.mp3' está na mesma pasta que o script.")
 
 if __name__ == "__main__":
     pomodoro_timer()
